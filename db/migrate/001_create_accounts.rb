@@ -5,7 +5,7 @@ migration 1, :create_accounts do
       column :name, String
       column :surname, String
       column :email, String
-      column :crypted_password, Text
+      column :crypted_password, String
       column :role, String
     end
   end

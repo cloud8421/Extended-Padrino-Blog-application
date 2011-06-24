@@ -10,7 +10,7 @@ class Account
   property :name,             String
   property :surname,          String
   property :email,            String
-  property :crypted_password, String, :length => 70
+  property :crypted_password, Text, :length => 70
   property :role,             String
 
   # Validations

@@ -5,6 +5,9 @@ class PadrinoTestApp < Padrino::Application
 
   enable :sessions
   
+  DataMapper.auto_migrate!
+  DataMapper.auto_upgrade!
+  
   get '/' do
     @posts = Post.recent_posts
     render 'posts/index'
