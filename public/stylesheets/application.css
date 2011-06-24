@@ -1,7 +1,7 @@
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  background-color: #E6E0D9; }
+  background-color: #e6e0d9; }
   body a {
     color: #336699; }
   body h2 {
@@ -11,8 +11,8 @@ body {
     padding-bottom: 10px; }
   body pre {
     display: block;
-    background-color: #F8F8FF;
-    border: 1px solid #DEDEDE;
+    background-color: #f8f8ff;
+    border: 1px solid #dedede;
     color: #444444;
     line-height: 1.5em;
     margin-bottom: 10px;
@@ -33,11 +33,11 @@ body {
 #header {
   background-color: #900209;
   padding: 30px 10px 20px 10px;
-  border-bottom: 2px solid #EC9A94;
+  border-bottom: 2px solid #ec9a94;
   overflow: hidden; }
   #header h1 {
     float: left;
-    color: #ECEBC3;
+    color: #ecebc3;
     font-size: 2.3em;
     font-weight: bold; }
   #header ul.menu {
@@ -51,7 +51,7 @@ body {
       padding-bottom: 5px; }
       #header ul.menu li a {
         font-size: 1.2em;
-        color: #DFF6FC;
+        color: #dff6fc;
         text-decoration: none; }
         #header ul.menu li a:hover {
           text-decoration: underline; }
@@ -69,9 +69,9 @@ body {
     #main .post .title {
       font-family: "Georgia,Times New Roman,serif";
       font-size: 2em;
-      color: #752A26; }
+      color: #752a26; }
       #main .post .title a {
-        color: #752A26;
+        color: #752a26;
         text-decoration: none; }
         #main .post .title a:hover {
           text-decoration: underline; }
@@ -84,14 +84,14 @@ body {
     #main .post .body {
       padding-bottom: 10px; }
     #main .post .details {
-      border-top: 1px solid #CCCCCC;
+      border-top: 1px solid #cccccc;
       margin-bottom: 0.25em;
       padding: 5px 0;
       overflow: hidden; }
       #main .post .details .author {
         float: left;
         padding-right: 5px;
-        border-right: 1px solid #CCCCCC; }
+        border-right: 1px solid #cccccc; }
   #main #show .author {
     border-right: none; }
 
@@ -110,11 +110,11 @@ body {
 #about h2 {
   font-family: "Georgia,Times New Roman,serif";
   font-size: 2em;
-  color: #752A26; }
+  color: #752a26; }
 #about h3 {
   font-family: "Georgia,Times New Roman,serif";
   font-size: 1.5em;
-  color: #752A26;
+  color: #752a26;
   padding-bottom: 6px; }
 #about p {
   padding-bottom: 12px; }
