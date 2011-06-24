@@ -1,0 +1,6 @@
+<div class="post">
+  <%= link_to post.title, url_for(:posts, :show, :id => post.id) %>
+  <span class="date"><%= time_ago_in_words(post.created_at || Time.now) + ' ago' %></span>
+  <span class="author">Posted by <%= post.account.email %></span>
+  <%= simple_format(post.body) %>
+</div>

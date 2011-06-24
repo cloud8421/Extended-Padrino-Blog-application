@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title><%= [@title, "Padrino Sample Blog"].compact.join(" | ") %></title>
+    <%= stylesheet_link_tag 'reset', 'application' %>
+    <%= javascript_include_tag 'jquery', 'application' %>
+</head>
+<body>
+  <div id="container">
+    <div id="main">
+      <%= yield %>
+    </div>
+  </div>
+</body>
+</html>
