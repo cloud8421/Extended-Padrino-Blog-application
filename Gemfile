@@ -32,6 +32,7 @@ end
 #Production
 group :production do
   gem 'pg'
+  gem 'dm-postgres-adapter'
 end
 
 # Padrino
