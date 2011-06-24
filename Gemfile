@@ -29,6 +29,11 @@ group :test do
   gem 'growl' #optional
 end
 
+#Production
+group :production do
+  gem 'pg'
+end
+
 # Padrino
 gem 'padrino', "0.9.29"
 # Padrino EDGE

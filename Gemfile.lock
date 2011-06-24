@@ -103,6 +103,7 @@ GEM
     padrino-mailer (0.9.29)
       mail (>= 2.2.0)
       padrino-core (= 0.9.29)
+    pg (0.11.0)
     polyglot (0.3.1)
     rack (1.3.0)
     rack-flash (0.1.1)
@@ -152,6 +153,7 @@ DEPENDENCIES
   guard-rspec
   guard-spork
   padrino (= 0.9.29)
+  pg
   rack-flash
   rack-test
   rake
