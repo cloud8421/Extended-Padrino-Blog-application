@@ -13,10 +13,10 @@ gem 'sass'
 gem 'erubis', "~> 2.7.0"
 gem 'dm-sqlite-adapter'
 gem 'data_mapper'
+gem 'rspec'
 
 # Test requirements
 group :test do
-  gem 'rspec'
   gem 'rack-test', :require => "rack/test"
   gem 'spork', '~> 0.9.0.rc'
   gem 'webrat'
